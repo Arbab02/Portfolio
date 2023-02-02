@@ -1,0 +1,193 @@
+* {
+
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+
+    background-image: url('snack.png');
+    background-size: cover;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    height: 6.5rem;
+    z-index: 20;
+}
+
+#logo {
+    margin: 0px 0px 0rem 2rem;
+    font-size: 2.7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: beige;
+}
+
+#subscribe {
+    margin: 1rem 0px 0px 8rem;
+    border-radius: 3rem;
+    font-size: 19px;
+    padding: 7px 1.5rem 7px 1.5rem;
+    background-color: rgb(224, 0, 0);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+#subscribe:hover {
+    margin: 1rem 0px 0px 8rem;
+    border-radius: 3rem;
+    font-size: 19px;
+    padding: 7px 1.5rem 7px 1.5rem;
+    background-color: rgb(240, 36, 36);
+    color: white;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+span {
+    color: rgb(224, 0, 0);
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 9rem;
+    margin-top: 0.8rem;
+
+}
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 1.4rem;
+}
+
+#navbar ul li a {
+
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    display: block;
+    padding: 11px 12px;
+    border-radius: 3px;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+#navbar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 26px;
+    margin-left: -15px;
+}
+
+#navbar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+#navbar ul li:hover .sub-menu-1 ul li {
+    text-align: left;
+    border-bottom: 1px dotted white;
+    padding: 10px;
+    width: 210px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-image:url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: left;
+    justify-content: center;
+    padding: 10px 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 40rem;
+}
+
+
+#heading {
+    font-size: 60px;
+    color: white;
+    text-align: left;
+    font-size: 5rem;
+    margin-left: -2rem ;
+}
+
+#home #para1 {
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    margin-left: -3rem ;
+    font-size: 2.2rem;
+}
+
+#home #para2 {
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    font-size: 2.2rem;
+    margin-left: -3rem;
+}
+
+#email{
+    position:  absolute;
+width: 30rem;
+height: 3rem;
+font-size: 1rem;
+padding: 0px 0px 0px 13px;
+margin: 0rem 0px 0px -1rem;
+border-radius: 35px;
+border: none;
+outline: none;
+}
+
+#searchbar{
+    width: 34.5rem;
+    background-color: white;
+    height: 3rem;
+    padding: 0px 0px 0px 13px;
+    margin: 1.2rem 0px 0px -3rem;
+    border-radius: 35px;
+   border: 2px solid white; 
+   
+}
+#home button {
+    font-size: 22px;
+    background-color: rgb(224, 0, 0);
+    color: white;
+    position: relative;
+    border: none;
+    border-radius: 35px;
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-family: serif;
+    margin-top: 0.3rem;
+    margin-left: 26.7rem;
+}
+
+#home button:hover {
+    font-size: 22px;
+    background-color: rgb(240, 36, 36);
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
